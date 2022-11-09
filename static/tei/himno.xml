@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://vault.tei-c.org/P5/current/xml/tei/custom/schema/relaxng/tei_minimal.rng" type="application/xml"
+<?xml-model href="../schema/himno.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../schema/himno.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-         <lg>
+         <lg type="stanza">
             <head>I</head>
             <l>Oíd, mortales, el grito sagrado:</l>
             <l>¡Libertad, libertad, libertad!</l>
@@ -32,7 +32,7 @@
             <l>y a sus plantas rendido un león.</l>
          </lg>
          
-         <lg>
+         <lg type="refrain">
             <head>Coro:</head>
             <l>Sean eternos los laureles,</l>
             <l>que supimos conseguir </l>
@@ -41,7 +41,7 @@
             <l>¡o juremos con gloria morir! </l>
          </lg>
          
-         <lg>
+         <lg type="stanza">
             <head>II</head>
             <l>De los nuevos campeones los rostros</l>
             <l>Marte mismo parece animar</l>
@@ -57,7 +57,7 @@
          
          <!--Coro-->
          
-         <lg>
+         <lg type="stanza">
             <head>III</head>
             <l>Pero sierras y muros se sienten</l>
             <l>retumbar con horrible fragor:</l>
